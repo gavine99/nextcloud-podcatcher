@@ -1,0 +1,35 @@
+#podcatcher h1 {
+  padding-bottom: 1em;
+  font-size: 150%;
+}
+
+#podcatcher #podcatcher-path, 
+#podcatcher #podcatcher-interval {
+  width: 25%;
+  margin-left: 1%;
+}
+
+#podcatcher #podcatcher-interval {
+  width: 10%;
+  margin-left: 1%;
+}
+
+#podcatcher div {
+  padding-bottom: 3em;
+}
+
+#podcatcher table {
+  width: 100%;
+}
+
+#podcatcher table input[type="text"] {
+  width: 98%;  
+}
+
+#podcatcher table th {
+  font-weight: bold;
+}
+
+#podcatcher table .last_err {
+  width: 30%;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+  <id>podcatcher</id>
+  <name>Podcatcher</name>
+  <summary>Download podcasts</summary>
+  <description><![CDATA[Download podcasts into your personal folders]]></description>
+  <version>0.0.2</version>
+  <licence>apache</licence>
+  <author mail="nextcloud.podcatcher@echomail.tk" >Gavin E</author>
+  <namespace>podcatcher</namespace>
+  <category>tools</category>
+  <bugs>https://noissuetracker.echomail.tk</bugs>
+  <dependencies>
+    <nextcloud min-version="15" max-version="19"/>
+    <php min-version="7.0" max-version="7.4"/>
+  </dependencies>
+  <settings>
+    <personal>OCA\podcatcher\Settings\Personal</personal>
+    <personal-section>OCA\podcatcher\Settings\PersonalSection</personal-section>
+  </settings>
+  <background-jobs>
+    <job>OCA\podcatcher\Cron\Cron</job>
+  </background-jobs>
+</info>
